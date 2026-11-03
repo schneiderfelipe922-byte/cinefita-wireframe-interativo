@@ -1,0 +1,193 @@
+{
+  "date": "2026-11-03",
+  "passed": true,
+  "method": "Codex in-app browser via cua_repl",
+  "checks": [
+    "Busca vazia e recuperação",
+    "Filtros DVD e Acervo de Bairro: preço e oferta corretos",
+    "Retorno preserva URL dos filtros",
+    "Oferta escolhida levada ao carrinho",
+    "Quantidade e carrinho preservados após recarga",
+    "Mesmo filme de dois vendedores permanece separado",
+    "Checkout inválido: erros associados e foco",
+    "Checkout preenchido: frete por vendedor",
+    "Crédito em três parcelas soma R$ 284,60",
+    "Conclusão limpa carrinho e mostra confirmação sem cobrança",
+    "Ativação do botão de adicionar com Enter",
+    "Remoção do último item e estado vazio"
+  ],
+  "layouts": [
+    {
+      "screen": "checkout",
+      "width": 320,
+      "duplicates": [],
+      "scroll": 320,
+      "viewport": 320
+    },
+    {
+      "screen": "checkout",
+      "width": 390,
+      "duplicates": [],
+      "scroll": 390,
+      "viewport": 390
+    },
+    {
+      "screen": "checkout",
+      "width": 768,
+      "duplicates": [],
+      "scroll": 768,
+      "viewport": 768
+    },
+    {
+      "screen": "checkout",
+      "width": 1440,
+      "duplicates": [],
+      "scroll": 1440,
+      "viewport": 1440
+    },
+    {
+      "screen": "01 Início",
+      "width": 320,
+      "duplicates": [],
+      "scroll": 320,
+      "viewport": 320
+    },
+    {
+      "screen": "02 Busca",
+      "width": 320,
+      "duplicates": [],
+      "scroll": 320,
+      "viewport": 320
+    },
+    {
+      "screen": "03 Produto",
+      "width": 320,
+      "duplicates": [],
+      "scroll": 320,
+      "viewport": 320
+    },
+    {
+      "screen": "04 Carrinho",
+      "width": 320,
+      "duplicates": [],
+      "scroll": 320,
+      "viewport": 320
+    },
+    {
+      "screen": "05 Checkout",
+      "width": 320,
+      "duplicates": [],
+      "scroll": 320,
+      "viewport": 320
+    },
+    {
+      "screen": "01 Início",
+      "width": 390,
+      "duplicates": [],
+      "scroll": 390,
+      "viewport": 390
+    },
+    {
+      "screen": "02 Busca",
+      "width": 390,
+      "duplicates": [],
+      "scroll": 390,
+      "viewport": 390
+    },
+    {
+      "screen": "03 Produto",
+      "width": 390,
+      "duplicates": [],
+      "scroll": 390,
+      "viewport": 390
+    },
+    {
+      "screen": "04 Carrinho",
+      "width": 390,
+      "duplicates": [],
+      "scroll": 390,
+      "viewport": 390
+    },
+    {
+      "screen": "05 Checkout",
+      "width": 390,
+      "duplicates": [],
+      "scroll": 390,
+      "viewport": 390
+    },
+    {
+      "screen": "01 Início",
+      "width": 768,
+      "duplicates": [],
+      "scroll": 768,
+      "viewport": 768
+    },
+    {
+      "screen": "02 Busca",
+      "width": 768,
+      "duplicates": [],
+      "scroll": 768,
+      "viewport": 768
+    },
+    {
+      "screen": "03 Produto",
+      "width": 768,
+      "duplicates": [],
+      "scroll": 768,
+      "viewport": 768
+    },
+    {
+      "screen": "04 Carrinho",
+      "width": 768,
+      "duplicates": [],
+      "scroll": 768,
+      "viewport": 768
+    },
+    {
+      "screen": "05 Checkout",
+      "width": 768,
+      "duplicates": [],
+      "scroll": 768,
+      "viewport": 768
+    },
+    {
+      "screen": "01 Início",
+      "width": 1440,
+      "duplicates": [],
+      "scroll": 1440,
+      "viewport": 1440
+    },
+    {
+      "screen": "02 Busca",
+      "width": 1440,
+      "duplicates": [],
+      "scroll": 1440,
+      "viewport": 1440
+    },
+    {
+      "screen": "03 Produto",
+      "width": 1440,
+      "duplicates": [],
+      "scroll": 1440,
+      "viewport": 1440
+    },
+    {
+      "screen": "04 Carrinho",
+      "width": 1440,
+      "duplicates": [],
+      "scroll": 1440,
+      "viewport": 1440
+    },
+    {
+      "screen": "05 Checkout",
+      "width": 1440,
+      "duplicates": [],
+      "scroll": 1440,
+      "viewport": 1440
+    }
+  ],
+  "limitations": [
+    "Armazenamento bloqueado implementado com try/catch; não injetado na sessão do navegador",
+    "Sem auditoria automática completa de acessibilidade ou teste com leitor de tela"
+  ]
+}

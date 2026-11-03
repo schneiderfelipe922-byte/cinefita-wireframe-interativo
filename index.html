@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Wireframe interativo Cinefita: explore o catálogo, compare ofertas e percorra uma compra demonstrativa.">
+  <meta name="theme-color" content="#f4f4f4">
+  <title>Início · Cinefita Wireframe</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="src/styles.css">
+  <script defer src="src/data.js"></script>
+  <script defer src="src/marketplace-core.js"></script>
+  <script defer src="src/checkout-core.js"></script>
+  <script defer src="src/app.js"></script>
+</head>
+<body>
+  <a class="skip" href="#conteudo">Pular para o conteúdo</a>
+  <div class="prototype"><div class="wrap prototype-inner"><span>CINEFITA / WIREFRAME INTERATIVO</span><span>Baixa fidelidade · dados demonstrativos</span></div></div>
+  <header class="wrap header">
+    <a class="brand" href="#/inicio" aria-label="Cinefita, início"><span class="brand-symbol" aria-hidden="true">C</span>CINEFITA</a>
+    <nav aria-label="Navegação principal"><a href="#/catalogo">Busca / Catálogo</a><a href="#/carrinho">Carrinho <span id="cart-count" class="count">0</span></a></nav>
+  </header>
+  <div class="wrap"><nav class="screen-nav" aria-label="Telas do wireframe"><a href="#/inicio">01 Início</a><a href="#/catalogo">02 Busca</a><a href="#/produto?id=frankenstein">03 Produto</a><a href="#/carrinho">04 Carrinho</a><a href="#/checkout">05 Checkout</a></nav>
+  <p id="storage-notice" class="notice" hidden>O navegador bloqueou o armazenamento. Suas escolhas ficam disponíveis apenas nesta aba enquanto ela estiver aberta.</p></div>
+  <main id="conteudo" class="wrap" tabindex="-1"></main>
+  <footer class="wrap footer"><a class="brand" href="#/inicio">CINEFITA</a><p>Cinema físico, memória viva.</p><a href="#/catalogo">Explorar o catálogo</a><p class="muted">Protótipo de navegação. Nenhuma compra, cobrança ou entrega real. Parceiros e ofertas são demonstrativos.</p></footer>
+  <div id="feedback" class="toast" role="status" aria-live="polite" aria-atomic="true"></div>
+  <noscript><div class="wrap notice">Ative o JavaScript para navegar pelas cinco telas e experimentar os filtros e a compra demonstrativa.</div></noscript>
+</body>
+</html>
